@@ -2,38 +2,27 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="styles.css"> <!-- Todavia no se implementa css --> 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Chicle&display=swap" rel="stylesheet">
-   
-    <title>AmigoSecreto</title>
-
+    <title>Amigo Secreto</title>
 </head>
 <body>
-<header class = 'header-banner'>
-    <h1 class = "main-title">Elige a tu amigo Secreto</h1>
-    <!-- Imagen de mi foquita -->
-</header>
-<section class="input-section">
-            <h2 class="section-title">Ingresa los nombres de tus amigos ^^</h2>
-            <div class="input-wrapper">
-                <input type="text" id="amigo" class="input-name" placeholder="Escribe un nombre">
-                <button class="button-add" onclick="agregarAmigo()">Añadir</button>
-            </div>
-           
-            <ul id="listaAmigos" class="name-list" aria-labelledby="listaAmigos" role="list"></ul>
-            <ul id="resultado" class="result-list" aria-live="polite"></ul>
+    <header>
+        <h1>Elige a tu Amigo Secreto</h1>
+    </header>
 
-            <div class="button-container">
-                <button class="button-draw" onclick="sortearAmigo()" aria-label="Sortear amigo secreto">
-                    <img src="assets/play_circle_outline.png" alt="Ícono para sortear"> <!-- Todavia no imagen -->
-                    Sortear amigo
-                </button>
-            </div>
-        </section>
+    <section>
+        <h2>Ingresa los nombres de tus amigos ^^</h2>
+        <input type="text" id="amigo" placeholder="Escribe un nombre">  <!-- placeholder para indicar -->
+        <button onclick="agregarAmigo()">Añadir</button>
 
-    <script src="app.js"></script>
+        <ul id="listaAmigos"></ul> <!-- contenedor de la lista -->
+
+        <button onclick="sortearAmigo()">Sortear amigo</button>
+        <button onclick="reiniciarAmigos()">Reiniciar</button>
+
+        <p id="resultado"></p> <!-- Mostrar resultado del sorteo -->
+    </section>
+
+    <script src="app.js" defer></script>
 </body>
 </html>
