@@ -29,7 +29,7 @@ function sortearAmigo() { // Sortear amigo
     }
     const i = Math.floor(Math.random() * amigos.length);
     const nombre = amigos[i];
-    resultado.innerHTML = "Tu amigo secreto es: " + nombre;
+    resultado.innerHTML = "Tu amigo secreto es: " + nombre + " 🎉";
 }
 
 // Reiniciar lista
