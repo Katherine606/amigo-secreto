@@ -1,4 +1,5 @@
 Proyecto Amigo Secreto ^^
+
 Este es mi primer proyecto usando HTML, CSS y JavaScript.
 Se trata de una aplicación web sencilla para organizar un sorteo de Amigo Secreto. 
 Permite ingresar nombres, listarlos y realizar un sorteo aleatorio para asignar el amigo secreto a cada participante.  
