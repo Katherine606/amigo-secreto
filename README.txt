@@ -13,4 +13,6 @@ HTML5 → estructura de la página.
 CSS3 → estilos, colores y diseño.
 JavaScript (ES6) → lógica para manejar la lista y hacer el sorteo.
 
+Página web: https://katherine606.github.io/amigo-secreto/
+
 Como mencioné, este es mi primer proyecto independiente, aun sigo en aprendizaje pero me alegra haber dado el primer paso :D
