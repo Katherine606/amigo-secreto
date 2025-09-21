@@ -1,19 +1,16 @@
 Proyecto Amigo Secreto ^^
+Este es mi primer proyecto usando HTML, CSS y JavaScript.
+Se trata de una aplicación web sencilla para organizar un sorteo de Amigo Secreto. 
+Permite ingresar nombres, listarlos y realizar un sorteo aleatorio para asignar el amigo secreto a cada participante.  
 
-Aplicación web interactiva y sencilla que permite gestionar un sorteo de Amigo Secreto..
-El usuario puede ingresar nombres, visualizarlos en una lista y realizar un sorteo aleatorio.  
+En el puedes:
+-  Añadir nombres de amigos a la lista.  
+-  Sortear un amigo secreto de forma aleatoria.  
+-  Reiniciar la lista y empezar de nuevo.  
 
-🛠️ Tecnologías utilizadas  
-- HTML5: Estructura semántica del contenido.  
-- CSS3: Estilización con variables (`:root`), flexbox y colores personalizados.  
-- JavaScript: → Manipulación del DOM, lógica de validación y sorteo.  
-- Google Fonts: Tipografía externa para mejorar la estética. 
+Tecnologías usadas
+HTML5 → estructura de la página.
+CSS3 → estilos, colores y diseño.
+JavaScript (ES6) → lógica para manejar la lista y hacer el sorteo.
 
-Ejecución  
-1. Descarga el repositorio.  
-2. Abre `index.html` en cualquier navegador.  
-3. Ingresa los nombres y haz clic en **Añadir**.  
-4. Usa **Sortear amigo** para realizar el sorteo.  
-5. Si deseas reiniciar, presiona **Reiniciar**.  
-
-Mi primer proyecto
+Como mencioné, este es mi primer proyecto independiente, aun sigo en aprendizaje pero me alegra haber dado el primer paso :D
